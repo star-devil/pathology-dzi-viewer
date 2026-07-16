@@ -1,0 +1,60 @@
+{
+  "name": "@pathology/dzi-viewer-vue",
+  "version": "1.0.0",
+  "description": "病理切片 DZI 标注预览 Vue 3 组件 —— 基于 OpenSeadragon 的病理图像查看与标注",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "clean": "rimraf dist",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@element-plus/icons-vue": "^2.0.0",
+    "element-plus": "^2.0.0",
+    "openseadragon": "^5.0.0",
+    "vue": "^3.4.0"
+  },
+  "dependencies": {
+    "@pathology/dzi-viewer-core": "file:../core"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@types/node": "^26.1.1",
+    "@types/openseadragon": "^5.0.2",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "element-plus": "^2.0.0",
+    "openseadragon": "^5.0.0",
+    "rimraf": "^6.0.0",
+    "sass-embedded": "^1.100.0",
+    "typescript": "^5.4.0",
+    "vite": "^6.0.0",
+    "vite-plugin-dts": "^4.0.0",
+    "vue": "^3.4.0",
+    "vue-tsc": "^2.0.0"
+  },
+  "keywords": [
+    "vue3",
+    "dzi",
+    "openseadragon",
+    "pathology",
+    "slide-viewer",
+    "annotation",
+    "deep-zoom"
+  ],
+  "license": "MIT"
+}

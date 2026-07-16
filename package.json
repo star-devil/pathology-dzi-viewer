@@ -1,0 +1,16 @@
+{
+  "name": "dzi-viewer-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "病理切片 DZI 标注预览组件库 — Monorepo",
+  "author": "Egg",
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:core": "pnpm --filter @pathology/dzi-viewer-core build",
+    "build:vue": "pnpm --filter @pathology/dzi-viewer-vue build",
+    "dev:core": "pnpm --filter @pathology/dzi-viewer-core dev",
+    "dev:vue": "pnpm --filter @pathology/dzi-viewer-vue dev",
+    "clean": "pnpm -r clean",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
