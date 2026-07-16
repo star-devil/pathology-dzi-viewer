@@ -11,6 +11,18 @@
     "dev:core": "pnpm --filter @pathology/dzi-viewer-core dev",
     "dev:vue": "pnpm --filter @pathology/dzi-viewer-vue dev",
     "clean": "pnpm -r clean",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
+    "changeset:status": "changeset status"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "human-id": "3.0.1"
+    }
   }
 }
