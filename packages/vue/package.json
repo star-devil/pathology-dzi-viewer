@@ -1,6 +1,6 @@
 {
   "name": "@pathology/dzi-viewer-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "病理切片 DZI 标注预览 Vue 3 组件 —— 基于 OpenSeadragon 的病理图像查看与标注",
   "type": "module",
   "main": "./dist/index.cjs",
