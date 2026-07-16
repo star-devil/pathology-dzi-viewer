@@ -5,7 +5,8 @@
 基于 [OpenSeadragon](https://openseadragon.github.io/) 和 [@wtsml/doodle](https://www.npmjs.com/package/@wtsml/doodle)，提供图像查看器创建、标注管理、几何计算、版本对比等能力。可在浏览器端或任何支持 DOM 的 JS 环境中使用。
 
 ## 示例图片
-https://github.com/star-devil/pathology-dzi-viewer/blob/main/example_image/image.png?raw=true
+![示例图片](https://github.com/star-devil/pathology-dzi-viewer/blob/main/example_image/image.png?raw=true)
+
 
 
 ## 安装

@@ -2,6 +2,18 @@
 
 病理切片 DZI 标注预览组件库 —— 基于 OpenSeadragon 的病理图像查看与标注系统。
 
+  [![npm version](https://img.shields.io/npm/v/%40pathology%2Fdzi-viewer-core.svg)](https://www.npmjs.com/package/%40pathology%2Fdzi-viewer-core)
+
+  [![npm downloads](https://img.shields.io/npm/dm/%40pathology%2Fdzi-viewer-core.svg)](https://www.npmjs.com/package/%40pathology%2Fdzi-viewer-core)
+ 
+   [![npm version](https://img.shields.io/npm/v/%40pathology%2Fdzi-viewer-vue.svg)](https://www.npmjs.com/package/%40pathology%2Fdzi-viewer-vue)
+
+  [![npm downloads](https://img.shields.io/npm/dm/%40pathology%2Fdzi-viewer-vue.svg)](https://www.npmjs.com/package/%40pathology%2Fdzi-viewer-vue)
+
+## 示例图片
+![示例图片](https://github.com/star-devil/pathology-dzi-viewer/blob/main/example_image/image.png?raw=true)
+
+
 ## 技术栈
 
 | 层级 | 技术 | 说明 |

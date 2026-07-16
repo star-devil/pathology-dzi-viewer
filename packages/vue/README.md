@@ -5,7 +5,7 @@
 提供开箱即用的 Vue 3 组件（图像查看器 + 工具面板 + 标注统计 + 版本对比），配合 `@pathology/dzi-viewer-core` 提供完整的数据和视图能力。
 
 ## 示例图片
-https://github.com/star-devil/pathology-dzi-viewer/blob/main/example_image/image.png?raw=true
+![示例图片](https://github.com/star-devil/pathology-dzi-viewer/blob/main/example_image/image.png?raw=true)
 
 ## 安装
 
