@@ -1,6 +1,6 @@
 {
   "name": "@pathology/dzi-viewer-core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "病理切片 DZI 标注预览核心引擎 —— 纯 TypeScript，无 UI 框架依赖",
   "type": "module",
   "main": "./dist/index.cjs",
